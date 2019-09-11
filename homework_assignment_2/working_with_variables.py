@@ -25,3 +25,4 @@ print ("Symbol:" + stock_symbol.upper() + ", " + "Price:" + str(price) + ", " + 
 print ("Symbol:" + stock_symbol.lower() + ", " + "Price:" + str(dollar_sign) + ", " + "Change:" + str(-change))
 # Output_3
 print ("Symbol:" + stock_symbol.upper() + " --- " + "Yesterday's Price:" + str (two_decimal)) 
+
