@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # Name: Dongying Wu
 # Student ID: 729678
 # Due date: September 15, 2019
@@ -10,7 +11,7 @@ print ("Items list:" , grocery_store_items)
 print ("prices list:" , prices, "\n")
 
 print ("************************(Question 1)***********************")
-# 1. Print the 3rd item followed by it’s price
+#1. Print the 3rd item followed by it’s price
 print((grocery_store_items[2]).title() + " price is: " + '${}'.format(prices[2])) 
 
 print ("************************(Question 2)***********************")
