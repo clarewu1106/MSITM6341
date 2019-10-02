@@ -54,9 +54,9 @@ for price_change in stock_price_changes:
     else:
         what_day = str(idx + 1) + " Days Ago:"
 
-    if price_change > 0:
+    if price_change < 0:
         print(what_day + " Stock Decreased: " + str(price_change))
-    elif price_change < 0:
+    elif price_change > 0:
         print(what_day + " Stock Increased: " + str(price_change))
     else:
         print(what_day + " No Change in Price")
