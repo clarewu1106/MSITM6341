@@ -53,7 +53,7 @@ for price_change in stock_price_changes:
         what_day = "Yesterday: "
     else:
         what_day = str(idx + 1) + " Days Ago:"
-
+    price_change = float(str(round(price_change, 2)))  
     if price_change < 0:
         print(what_day + " Stock Decreased: " + str(price_change))
     elif price_change > 0:
